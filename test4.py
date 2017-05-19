@@ -7,4 +7,3 @@ if guess == 8:
 else:
     print('猜错了，我的数字是8!')
 print('游戏结束！')
-
