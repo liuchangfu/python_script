@@ -25,33 +25,25 @@ tax = salary - 3500;
 if salary <= 0:
     print('输入错误！！')
 elif salary <= 3500:
-    tax = salary - 3500;
     print('你无需缴纳个人所得税!')
 elif tax <= 1500:
-    tax = salary - 3500;
     print('您所缴的个人所得税为:%d' % (tax*0.03))
     print('您的税后工资为:%0.2f' % (salary-tax*0.03))
 elif (tax > 1500 and tax < 4500):
-    tax = salary - 3500;
     print('您所缴的个人所得税为:%d' % (tax * 0.1-105))
     print('您的税后工资为:%0.2f' % (salary - (tax * 0.1-105)))
 elif (tax >= 4500 and tax < 9000):
-    tax = salary - 3500;
     print('您所缴的个人所得税为:%d' % (tax * 0.2 - 555))
     print('您的税后工资为:%0.2f' % (salary - (tax * 0.2 - 555)))
 elif (tax>=9000 and tax<35000):
-    tax = salary - 3500;
     print('您所缴的个人所得税为:%d' % (tax * 0.25 - 1050))
     print('您的税后工资为:%0.2f' % (salary - (tax * 0.25 - 1050)))
 elif (tax>=35000 and tax <55000):
-    tax = salary - 3500;
     print('您所缴的个人所得税为:%d' % (tax * 0.3 - 2755))
     print('您的税后工资为:%0.2f' % (salary - (tax * 0.3 - 2755)))
 elif (tax >=55000 and tax < 80000):
-    tax = salary - 3500;
     print('您所缴的个人所得税为:%d' % (tax * 0.35 - 5505))
     print('您的税后工资为:%0.2f' % (salary - (tax * 0.35 - 5505)))
 else:
-    tax = salary - 3500;
     print('您所缴的个人所得税为:%d' %  (tax * 0.45 - 13505))
     print('您的税后工资为:%0.2f' % (salary - (tax * 0.3 - 13505)))
