@@ -7,7 +7,7 @@ job = input('请输入职业:')
 
 salary = input('请输入工资：')
 
-print  ('''
+print ('''
 个人信息为: %s
         名字为：%s
         年龄为: %s
