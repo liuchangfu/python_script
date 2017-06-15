@@ -3,5 +3,5 @@ import  os
 f = open('E:\\python\\ex1.txt')
 lines = f.readlines()
 for line in lines:
-    print(line)
+    print(line,end='')
 f.close()
