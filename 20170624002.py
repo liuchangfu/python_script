@@ -1,4 +1,4 @@
-
+#文件替换
 f = open('e:\\python\\day2.txt','r',encoding='utf-8')
 
 f_new = open('e:\\python\\day2.bak','w',encoding='utf-8')
