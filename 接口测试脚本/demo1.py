@@ -1,8 +1,8 @@
 import requests
 from requests.auth import HTTPBasicAuth
 
-# GET
-print(requests.get('http://localhost:8080/job/fisrt_job/disable'))
+# # GET
+# print(requests.get('http://localhost:8080/job/fisrt_job/disable'))
 
 # POST with basic auth
 url = 'http://localhost:8080/job/fisrt_job/disable'
