@@ -16,6 +16,7 @@ class JenkinsGet(unittest.TestCase):# TODO TypeError: string indices must be int
 
     def setUp(self):
          self.r = requests.get('http://localhost:8080/api/json?tree=jobs[name]')
+         print(self.r)
 
     # def test_get_all_job_names(self):
     #     result = demjson.encode(self.r.text)
@@ -25,8 +26,9 @@ class JenkinsGet(unittest.TestCase):# TODO TypeError: string indices must be int
     #     self.assertEqual(json_result['jobs'][1]['name'], 'second_job')
 
     def test_get_all_job_names(self):
-         json_result =demjson.encode(self.r)
-         print(json_result)
+         json_result = demjson.decode(self.r)
+         print(type(json_result))
+         # json_result = self.r.json()
          self.assertEqual(json_result['jobs'][0]['name'], 'fisrt_job')
          self.assertEqual(json_result['jobs'][1]['name'], 'second_job')
 
