@@ -1,5 +1,6 @@
 import requests
 '''
+原文地址：http://blog.csdn.net/shanzhizi/article/details/50903748
 r.status_code #响应状态码
 r.raw #返回原始响应体，也就是 urllib 的 response 对象，使用 r.raw.read() 读取
 r.content #字节方式的响应体，会自动为你解码 gzip 和 deflate 压缩
