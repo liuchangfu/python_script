@@ -30,5 +30,6 @@ a={
 
 a_js  = json.dumps(a)
 
+print(type(a["jobs"][0]["name"]))
 print(a["jobs"][0]["name"])
 print(a["jobs"][1]["name"])
