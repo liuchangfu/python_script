@@ -1,0 +1,31 @@
+新疆时时彩接口说明
+
+接口地址组成：https://mo.1394x.com/[接口地址]/版本号
+
+--https://mo.1394x.com/xjssc/BetGame?version=3000
+
+域名--mo.1394x.com
+
+版本号 version?3000
+
+免费推荐  --/xjssc/BetGame
+
+总和路珠  --/xjssc/SumRoadmap
+
+号码统计 --/xjssc/NumberStat
+
+号码路珠 --/xjssc/NumberRoadmap
+
+龙虎路珠 --/xjssc/LongHuRoadmap
+
+大小路珠 --/xjssc/BigorSmallRoadmap
+
+获取最新开奖结果 --/xjssc/GetAwardData
+
+单双路珠 --/xjssc/OddorEvenRoadmap
+
+横版走势 --/xjssc/NumberTrend
+
+遗漏统计 --/xjssc/NumberOmit
+
+冷热分析 --/xjssc/HotColdNumber

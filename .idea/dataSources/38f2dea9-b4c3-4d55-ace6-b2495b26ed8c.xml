@@ -1,0 +1,5197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="siteportal_vip@192.168.10.16">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="cmao_scrapy_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="confluence">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="db_qq_lottery">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="guest">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="hive">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="lepus">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="mysql">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="qqffc_spark">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="siteportal_vip">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="sonar">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="14" parent="1" name="testlink">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="weixinsell">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="zabbix">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="17" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="18" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="20" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="21" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="23" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="24" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="27" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="29" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="33" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="37" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="39" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="41" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="225" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="226" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="227" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="228" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="229" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="230" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="231" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="232" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="233" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="234" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="235" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="236" parent="12" name="l_ahk3_omit">
+      <Comment>安徽快3号码、总和、总和大小遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="237" parent="12" name="l_ahk3_winning_number">
+      <Comment>安徽快3开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="238" parent="12" name="l_ball_day_stat">
+      <Comment>各球大小单双统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="239" parent="12" name="l_changlong_day_stat">
+      <Comment>长龙每日统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="240" parent="12" name="l_changlong_stat">
+      <Comment>彩种的长龙统计表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="241" parent="12" name="l_cqssc_changlong_warn">
+      <Comment>重庆时时彩长龙提醒统计表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="242" parent="12" name="l_cqssc_omit">
+      <Comment>重庆时时彩号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="243" parent="12" name="l_cqssc_winning_number">
+      <Comment>重庆时时彩的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="244" parent="12" name="l_fc3d_winning_number">
+      <Comment>福彩3D的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="245" parent="12" name="l_gd11x5_omit">
+      <Comment>广东11选5号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="246" parent="12" name="l_gd11x5_winning_number">
+      <Comment>广东11选5的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="247" parent="12" name="l_gdkl10_changlong_warn">
+      <Comment>广东快乐十分长龙提醒统计表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="248" parent="12" name="l_gdkl10_winning_number">
+      <Comment>广东快乐十分的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="249" parent="12" name="l_gxk3_omit">
+      <Comment>广西快3号码、总和、总和大小遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="250" parent="12" name="l_gxk3_winning_number">
+      <Comment>广西快3开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="251" parent="12" name="l_hnkl10_winning_number">
+      <Comment>湖南快乐十分的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="252" parent="12" name="l_jlk3_omit">
+      <Comment>吉林快3号码、总和、总和大小遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="253" parent="12" name="l_jlk3_winning_number">
+      <Comment>吉林快3开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="254" parent="12" name="l_jsk3_omit">
+      <Comment>江苏快3号码、总和、总和大小遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="255" parent="12" name="l_jsk3_winning_number">
+      <Comment>江苏快三</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="256" parent="12" name="l_jx11x5_omit">
+      <Comment>江西11选5号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="257" parent="12" name="l_jx11x5_winning_number">
+      <Comment>江西11选5的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="258" parent="12" name="l_jxssc_winning_number">
+      <Comment>江西时时彩的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="259" parent="12" name="l_kl8_winning_number">
+      <Comment>快乐8的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="260" parent="12" name="l_number_day_stat">
+      <Comment>开奖号码的每日统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="261" parent="12" name="l_number_follow_number">
+      <Comment>号码历史表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="262" parent="12" name="l_pk10_champion_runnerup_stat">
+      <Comment>PK10冠亚军统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="263" parent="12" name="l_pk10_changlong_warn">
+      <Comment>北京赛车长龙提醒统计表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="264" parent="12" name="l_pk10_gyh_omit">
+      <Comment>北京赛车PK10冠亚和遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="265" parent="12" name="l_pk10_omit">
+      <Comment>北京赛车PK10号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="266" parent="12" name="l_pk10_winning_number">
+      <Comment>北京pk10的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="267" parent="12" name="l_pl3_winning_number">
+      <Comment>排列3的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="268" parent="12" name="l_roadmap_data">
+      <Comment>彩种的路珠数据</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="269" parent="12" name="l_roadmap_day_data">
+      <Comment>彩种的路珠按天统计数据</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="270" parent="12" name="l_sdc_omit">
+      <Comment>圣地彩号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="271" parent="12" name="l_sdc_winning_number">
+      <Comment>圣地彩的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="272" parent="12" name="l_shssl_winning_number">
+      <Comment>上海时时乐的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="273" parent="12" name="l_special_form_stat">
+      <Comment>特殊形态统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="274" parent="12" name="l_ssc_two_ball_tip">
+      <Comment>双号提醒</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="275" parent="12" name="l_syydj_omit">
+      <Comment>十一运夺金号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="276" parent="12" name="l_syydj_winning_number">
+      <Comment>十一运夺金的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="277" parent="12" name="l_tjkl10_changlong_warn">
+      <Comment>天津快乐十分长龙提醒统计表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="278" parent="12" name="l_tjkl10_winning_number">
+      <Comment>天津快乐十分的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="279" parent="12" name="l_tjssc_omit">
+      <Comment>天津时时彩号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="280" parent="12" name="l_tjssc_winning_number">
+      <Comment>天津时时彩的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="281" parent="12" name="l_two_sided_omit">
+      <Comment>统计 相应彩种 每个球  大小、单双 在指定时间内的 遗漏次数 和 出现次数</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="282" parent="12" name="l_two_sided_omit_copy">
+      <Comment>统计 相应彩种 每个球  大小、单双 在指定时间内的 遗漏次数 和 出现次数</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="283" parent="12" name="l_two_sided_stat">
+      <Comment>以每10期为一组，统计最近20组中单双大小的出现次数。</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="284" parent="12" name="l_xjssc_omit">
+      <Comment>新疆时时彩号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="285" parent="12" name="l_xjssc_winning_number">
+      <Comment>新疆时时彩的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="286" parent="12" name="l_xy28_winning_number">
+      <Comment>幸运28（pc蛋蛋）</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="287" parent="12" name="l_xyft_gyh_omit">
+      <Comment>幸运飞艇冠亚和号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="288" parent="12" name="l_xyft_omit">
+      <Comment>幸运飞艇号码遗漏</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="289" parent="12" name="l_xyft_winning_number">
+      <Comment>幸运飞艇的开奖号码表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="290" parent="12" name="l_xyft_winning_number_original">
+      <Comment>幸运飞艇的开奖号码原始表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="291" parent="12" name="l_xync_changlong_warn">
+      <Comment>幸运农场长龙提醒统计表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="292" parent="12" name="l_xync_winning_number">
+      <Comment>骞歌繍鍐滃満鐨勫紑濂栧彿鐮佽〃</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="293" parent="236" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="236" name="type">
+      <Position>2</Position>
+      <Comment>类别:1：单号，2：长牌，3：总和号码 4：总和大小 5:短牌</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="295" parent="236" name="play_name">
+      <Position>3</Position>
+      <Comment>遗漏类别</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="236" name="play_item">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="236" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="236" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="236" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="236" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="236" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="302" parent="236" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="303" parent="236" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="304" parent="236" name="idx_ahk3_name_item">
+      <ColNames>play_item
+play_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="305" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="306" parent="236" name="idx_ahk3_name_item">
+      <ColNames>play_item
+play_name</ColNames>
+      <UnderlyingIndexName>idx_ahk3_name_item</UnderlyingIndexName>
+    </key>
+    <column id="307" parent="237" name="id">
+      <Position>1</Position>
+      <Comment>id自动编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="308" parent="237" name="drawing_date">
+      <Position>2</Position>
+      <Comment>开奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="309" parent="237" name="drawing_time">
+      <Position>3</Position>
+      <Comment>开奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="237" name="period">
+      <Position>4</Position>
+      <Comment>期号</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="311" parent="237" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码,用逗号隔开各个数字</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="312" parent="237" name="idx_ahk3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="313" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="314" parent="237" name="idx_ahk3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_ahk3_period_number</UnderlyingIndexName>
+    </key>
+    <column id="315" parent="238" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="316" parent="238" name="stat_date">
+      <Position>2</Position>
+      <Comment>统计日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="317" parent="238" name="lottery_id">
+      <Position>3</Position>
+      <Comment>彩种 1 = 重庆时时彩, 2 = PK10,  3 = 广东快乐十分</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="318" parent="238" name="type">
+      <Position>4</Position>
+      <Comment>统计类别：1：大，2：小，3：单，4：双</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="319" parent="238" name="ball1">
+      <Position>5</Position>
+      <Comment>第一球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="238" name="ball2">
+      <Position>6</Position>
+      <Comment>第二球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="321" parent="238" name="ball3">
+      <Position>7</Position>
+      <Comment>第三球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="238" name="ball4">
+      <Position>8</Position>
+      <Comment>第四球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="323" parent="238" name="ball5">
+      <Position>9</Position>
+      <Comment>第五球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="324" parent="238" name="ball6">
+      <Position>10</Position>
+      <Comment>第六球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="238" name="ball7">
+      <Position>11</Position>
+      <Comment>第七球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="326" parent="238" name="ball8">
+      <Position>12</Position>
+      <Comment>第八球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="238" name="ball9">
+      <Position>13</Position>
+      <Comment>第九球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="328" parent="238" name="ball10">
+      <Position>14</Position>
+      <Comment>第十球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="329" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="330" parent="239" name="lottery_id">
+      <Position>1</Position>
+      <Comment>彩种</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="239" name="stat_date">
+      <Position>2</Position>
+      <Comment>统计日</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="239" name="stat_type">
+      <Position>3</Position>
+      <Comment>统计长龙(1:大;2:小;3:单;4:双;5:质;6:合……)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="239" name="position">
+      <Position>4</Position>
+      <Comment>位置(-1:总和;-2:冠亚和;0:无;1:第一球……)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="239" name="changlong">
+      <Position>5</Position>
+      <Comment>几期长龙</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="239" name="total">
+      <Position>6</Position>
+      <Comment>出现总次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="336" parent="239" name="update_time">
+      <Position>7</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="337" parent="239" name="stat_period">
+      <Position>8</Position>
+      <Comment>最后统计的期数(yyMMddppp)</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="338" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>lottery_id
+stat_date
+stat_type
+position
+changlong</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="339" parent="240" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="340" parent="240" name="lottery">
+      <Position>2</Position>
+      <Comment>彩种 1 = 重庆时时彩, 2 = PK10,  3 = 广东快乐十分</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="341" parent="240" name="play_name">
+      <Position>3</Position>
+      <Comment>玩法名称，如：第一球，第二球，总和等等</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="342" parent="240" name="bet_item">
+      <Position>4</Position>
+      <Comment>下注项，如：单，双，龙，虎，号码等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="343" parent="240" name="bet_type">
+      <Position>5</Position>
+      <Comment>长龙形态（0:a;1:ab;2:abb;3:aabb;)</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="344" parent="240" name="coming_times">
+      <Position>6</Position>
+      <Comment>连续出现次数。 如果值为负数则表示是未出现次数。</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="345" parent="240" name="update_time">
+      <Position>7</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="240" name="stat_period">
+      <Position>8</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="347" parent="240" name="idx_changlong_stat_lottery">
+      <ColNames>lottery
+play_name
+bet_item
+bet_type</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="348" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="349" parent="240" name="idx_changlong_stat_lottery">
+      <ColNames>lottery
+play_name
+bet_item
+bet_type</ColNames>
+      <UnderlyingIndexName>idx_changlong_stat_lottery</UnderlyingIndexName>
+    </key>
+    <column id="350" parent="241" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="351" parent="241" name="member_id">
+      <Position>2</Position>
+      <Comment>会员编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="352" parent="241" name="play_name">
+      <Position>3</Position>
+      <Comment>玩法名称，如：第一球，第二球，总和等等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="353" parent="241" name="bet_item">
+      <Position>4</Position>
+      <Comment>下注项，如：单，双，龙，虎，号码等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="354" parent="241" name="coming_times">
+      <Position>5</Position>
+      <Comment>连续出现次数。 如果值为负数则表示是未出现次数。</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="355" parent="241" name="sms_state">
+      <Position>6</Position>
+      <Comment>是否需要短信提醒</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="356" parent="241" name="idx_cqssc_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="357" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="358" parent="241" name="idx_cqssc_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <UnderlyingIndexName>idx_cqssc_changlong_warn</UnderlyingIndexName>
+    </key>
+    <column id="359" parent="242" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="360" parent="242" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="361" parent="242" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="362" parent="242" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="363" parent="242" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="364" parent="242" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="365" parent="242" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="366" parent="242" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="367" parent="242" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="368" parent="242" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="369" parent="242" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="370" parent="242" name="idx_cqssc_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="371" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="372" parent="242" name="idx_cqssc_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_cqssc_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="373" parent="243" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="374" parent="243" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="375" parent="243" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="376" parent="243" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="377" parent="243" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="378" parent="243" name="idx_cqssc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="379" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="380" parent="243" name="idx_cqssc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_cqssc_period_number</UnderlyingIndexName>
+    </key>
+    <column id="381" parent="244" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="382" parent="244" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="383" parent="244" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="384" parent="244" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="385" parent="244" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="386" parent="244" name="idx_fc3d_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="387" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="388" parent="244" name="idx_fc3d_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_fc3d_period_number</UnderlyingIndexName>
+    </key>
+    <column id="389" parent="245" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="390" parent="245" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="391" parent="245" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="392" parent="245" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="393" parent="245" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="394" parent="245" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="395" parent="245" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="396" parent="245" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="245" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="245" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="245" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="400" parent="245" name="idx_gd11x5_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="401" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="402" parent="245" name="idx_gd11x5_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_gd11x5_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="403" parent="246" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="404" parent="246" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="405" parent="246" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="406" parent="246" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="407" parent="246" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="408" parent="246" name="idx_gd11x5_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="409" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="410" parent="246" name="idx_gd11x5_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_gd11x5_period_number</UnderlyingIndexName>
+    </key>
+    <column id="411" parent="247" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="412" parent="247" name="member_id">
+      <Position>2</Position>
+      <Comment>会员编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="413" parent="247" name="play_name">
+      <Position>3</Position>
+      <Comment>玩法名称，如：第一球，第二球，总和等等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="414" parent="247" name="bet_item">
+      <Position>4</Position>
+      <Comment>下注项，如：单，双，龙，虎，号码等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="415" parent="247" name="coming_times">
+      <Position>5</Position>
+      <Comment>连续出现次数。 如果值为负数则表示是未出现次数。</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="416" parent="247" name="sms_state">
+      <Position>6</Position>
+      <Comment>是否需要短信提醒</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="417" parent="247" name="idx_gdkl10_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="418" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="419" parent="247" name="idx_gdkl10_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <UnderlyingIndexName>idx_gdkl10_changlong_warn</UnderlyingIndexName>
+    </key>
+    <column id="420" parent="248" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="421" parent="248" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="422" parent="248" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="423" parent="248" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="424" parent="248" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="425" parent="248" name="idx_gdkl10_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="426" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="427" parent="248" name="idx_gdkl10_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_gdkl10_period_number</UnderlyingIndexName>
+    </key>
+    <column id="428" parent="249" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="429" parent="249" name="type">
+      <Position>2</Position>
+      <Comment>类别:1：单号，2：长牌，3：总和号码 4：总和大小 5:短牌</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="430" parent="249" name="play_name">
+      <Position>3</Position>
+      <Comment>遗漏类别</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="431" parent="249" name="play_item">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="432" parent="249" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="433" parent="249" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="434" parent="249" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="435" parent="249" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="436" parent="249" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="437" parent="249" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="438" parent="249" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="439" parent="249" name="idx_gxk3_name_item">
+      <ColNames>play_item
+play_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="440" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="441" parent="249" name="idx_gxk3_name_item">
+      <ColNames>play_item
+play_name</ColNames>
+      <UnderlyingIndexName>idx_gxk3_name_item</UnderlyingIndexName>
+    </key>
+    <column id="442" parent="250" name="id">
+      <Position>1</Position>
+      <Comment>id自动编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="443" parent="250" name="drawing_date">
+      <Position>2</Position>
+      <Comment>开奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="444" parent="250" name="drawing_time">
+      <Position>3</Position>
+      <Comment>开奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="445" parent="250" name="period">
+      <Position>4</Position>
+      <Comment>期号</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="446" parent="250" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码,用逗号隔开各个数字</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="447" parent="250" name="idx_gxk3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="448" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="449" parent="250" name="idx_gxk3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_gxk3_period_number</UnderlyingIndexName>
+    </key>
+    <column id="450" parent="251" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="451" parent="251" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="452" parent="251" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="453" parent="251" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="454" parent="251" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="455" parent="251" name="idx_hnkl10_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="456" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="457" parent="251" name="idx_hnkl10_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_hnkl10_period_number</UnderlyingIndexName>
+    </key>
+    <column id="458" parent="252" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="459" parent="252" name="type">
+      <Position>2</Position>
+      <Comment>类别:1：单号，2：长牌，3：总和号码 4：总和大小 5:短牌</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="460" parent="252" name="play_name">
+      <Position>3</Position>
+      <Comment>遗漏类别</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="461" parent="252" name="play_item">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="462" parent="252" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="463" parent="252" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="464" parent="252" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="465" parent="252" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="466" parent="252" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="467" parent="252" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="468" parent="252" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="469" parent="252" name="idx_jlk3_name_item">
+      <ColNames>play_item
+play_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="470" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="471" parent="252" name="idx_jlk3_name_item">
+      <ColNames>play_item
+play_name</ColNames>
+      <UnderlyingIndexName>idx_jlk3_name_item</UnderlyingIndexName>
+    </key>
+    <column id="472" parent="253" name="id">
+      <Position>1</Position>
+      <Comment>id自动编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="473" parent="253" name="drawing_date">
+      <Position>2</Position>
+      <Comment>开奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="474" parent="253" name="drawing_time">
+      <Position>3</Position>
+      <Comment>开奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="475" parent="253" name="period">
+      <Position>4</Position>
+      <Comment>期号</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="476" parent="253" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码,用逗号隔开各个数字</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="477" parent="253" name="idx_jlk3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="478" parent="253" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="479" parent="253" name="idx_jlk3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_jlk3_period_number</UnderlyingIndexName>
+    </key>
+    <column id="480" parent="254" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="481" parent="254" name="type">
+      <Position>2</Position>
+      <Comment>类别:1：单号，2：长牌，3：总和号码 4：总和大小 5:短牌</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="482" parent="254" name="play_name">
+      <Position>3</Position>
+      <Comment>遗漏类别</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="483" parent="254" name="play_item">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="484" parent="254" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="485" parent="254" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="486" parent="254" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="487" parent="254" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="488" parent="254" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="489" parent="254" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="490" parent="254" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="491" parent="254" name="idx_jsk3_name_item">
+      <ColNames>play_item
+play_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="492" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="493" parent="254" name="idx_jsk3_name_item">
+      <ColNames>play_item
+play_name</ColNames>
+      <UnderlyingIndexName>idx_jsk3_name_item</UnderlyingIndexName>
+    </key>
+    <column id="494" parent="255" name="id">
+      <Position>1</Position>
+      <Comment>id缂栧彿</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="495" parent="255" name="drawing_date">
+      <Position>2</Position>
+      <Comment>鎶藉?鏃ユ湡</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="496" parent="255" name="drawing_time">
+      <Position>3</Position>
+      <Comment>鎶藉?鏃堕棿</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="497" parent="255" name="period">
+      <Position>4</Position>
+      <Comment>鏈熸暟</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="498" parent="255" name="numbers">
+      <Position>5</Position>
+      <Comment>寮??鍙风爜锛岀敤閫楀彿闅斿紑鍚勪釜鏁板瓧</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="499" parent="255" name="idx_jsk3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="500" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="501" parent="255" name="idx_jsk3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_jsk3_period_number</UnderlyingIndexName>
+    </key>
+    <column id="502" parent="256" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="503" parent="256" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="504" parent="256" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="505" parent="256" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="506" parent="256" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="507" parent="256" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="508" parent="256" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="509" parent="256" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="510" parent="256" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="511" parent="256" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="512" parent="256" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="513" parent="256" name="idx_jx11x5_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="514" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="515" parent="256" name="idx_jx11x5_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_jx11x5_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="516" parent="257" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="517" parent="257" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="518" parent="257" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="519" parent="257" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="520" parent="257" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="521" parent="257" name="idx_jx11x5_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="522" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="523" parent="257" name="idx_jx11x5_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_jx11x5_period_number</UnderlyingIndexName>
+    </key>
+    <column id="524" parent="258" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="525" parent="258" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="526" parent="258" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="527" parent="258" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="528" parent="258" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="529" parent="258" name="idx_jxssc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="530" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="531" parent="258" name="idx_jxssc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_jxssc_period_number</UnderlyingIndexName>
+    </key>
+    <column id="532" parent="259" name="period">
+      <Position>1</Position>
+      <Comment>期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="533" parent="259" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="534" parent="259" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="535" parent="259" name="numbers">
+      <Position>4</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(60)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="536" parent="259" name="pan">
+      <Position>5</Position>
+      <Comment>飞盘号：1、2、3、4、5、10</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="537" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>period</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="538" parent="260" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="539" parent="260" name="lottery_id">
+      <Position>2</Position>
+      <Comment>彩种 1 = 重庆时时彩, 2 = PK10,  3 = 广东快乐十分</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="540" parent="260" name="stat_date">
+      <Position>3</Position>
+      <Comment>统计日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="541" parent="260" name="num0">
+      <Position>4</Position>
+      <Comment>号码0</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="542" parent="260" name="num1">
+      <Position>5</Position>
+      <Comment>号码1</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="543" parent="260" name="num2">
+      <Position>6</Position>
+      <Comment>号码2</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="544" parent="260" name="num3">
+      <Position>7</Position>
+      <Comment>号码3</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="545" parent="260" name="num4">
+      <Position>8</Position>
+      <Comment>号码4</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="546" parent="260" name="num5">
+      <Position>9</Position>
+      <Comment>号码5</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="547" parent="260" name="num6">
+      <Position>10</Position>
+      <Comment>号码6</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="548" parent="260" name="num7">
+      <Position>11</Position>
+      <Comment>号码7</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="549" parent="260" name="num8">
+      <Position>12</Position>
+      <Comment>号码8</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="550" parent="260" name="num9">
+      <Position>13</Position>
+      <Comment>号码9</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="551" parent="260" name="num10">
+      <Position>14</Position>
+      <Comment>号码10</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="552" parent="260" name="num11">
+      <Position>15</Position>
+      <Comment>号码11</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="553" parent="260" name="num12">
+      <Position>16</Position>
+      <Comment>号码12</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="554" parent="260" name="num13">
+      <Position>17</Position>
+      <Comment>号码13</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="555" parent="260" name="num14">
+      <Position>18</Position>
+      <Comment>号码14</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="556" parent="260" name="num15">
+      <Position>19</Position>
+      <Comment>号码15</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="557" parent="260" name="num16">
+      <Position>20</Position>
+      <Comment>号码16</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="558" parent="260" name="num17">
+      <Position>21</Position>
+      <Comment>号码17</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="559" parent="260" name="num18">
+      <Position>22</Position>
+      <Comment>号码18</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="560" parent="260" name="num19">
+      <Position>23</Position>
+      <Comment>号码19</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="561" parent="260" name="num20">
+      <Position>24</Position>
+      <Comment>号码20</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="562" parent="260" name="big">
+      <Position>25</Position>
+      <Comment>大</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="563" parent="260" name="small">
+      <Position>26</Position>
+      <Comment>小</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="564" parent="260" name="odd">
+      <Position>27</Position>
+      <Comment>单</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="565" parent="260" name="even">
+      <Position>28</Position>
+      <Comment>双</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="566" parent="260" name="dragon">
+      <Position>29</Position>
+      <Comment>龙</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="567" parent="260" name="tiger">
+      <Position>30</Position>
+      <Comment>虎</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="568" parent="260" name="equal">
+      <Position>31</Position>
+      <Comment>平</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="569" parent="260" name="dragon2">
+      <Position>32</Position>
+      <Comment>龙2</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="570" parent="260" name="tiger2">
+      <Position>33</Position>
+      <Comment>虎2</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="571" parent="260" name="dragon3">
+      <Position>34</Position>
+      <Comment>龙3</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="572" parent="260" name="tiger3">
+      <Position>35</Position>
+      <Comment>虎3</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="573" parent="260" name="dragon4">
+      <Position>36</Position>
+      <Comment>龙4</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="574" parent="260" name="tiger4">
+      <Position>37</Position>
+      <Comment>虎4</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="575" parent="260" name="dragon5">
+      <Position>38</Position>
+      <Comment>龙5</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="576" parent="260" name="tiger5">
+      <Position>39</Position>
+      <Comment>虎5</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="577" parent="260" name="idx_ln_day_stat_lid_date">
+      <ColNames>lottery_id
+stat_date</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="578" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="579" parent="260" name="idx_ln_day_stat_lid_date">
+      <ColNames>lottery_id
+stat_date</ColNames>
+      <UnderlyingIndexName>idx_ln_day_stat_lid_date</UnderlyingIndexName>
+    </key>
+    <column id="580" parent="261" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="581" parent="261" name="lottery">
+      <Position>2</Position>
+      <Comment>彩种1 = 重庆时时彩, 2 = PK10,  3 = 广东快乐十分</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="582" parent="261" name="number">
+      <Position>3</Position>
+      <Comment>号码</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="583" parent="261" name="position">
+      <Position>4</Position>
+      <Comment>所在球位置。 如果值为0则表示不限制位置</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="584" parent="261" name="follow_numbers">
+      <Position>5</Position>
+      <Comment>跟随出现的号码历史数据，各号码之间用逗号隔开，最多保留200个号码，最新的在最前位置</Comment>
+      <DataType>varchar(1000)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="585" parent="261" name="update_time">
+      <Position>6</Position>
+      <Comment>更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="586" parent="261" name="idx_l_nfn_number">
+      <ColNames>lottery
+number
+position</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="587" parent="261" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="588" parent="261" name="idx_l_nfn_number">
+      <ColNames>lottery
+number
+position</ColNames>
+      <UnderlyingIndexName>idx_l_nfn_number</UnderlyingIndexName>
+    </key>
+    <column id="589" parent="262" name="id">
+      <Position>1</Position>
+      <Comment>自动编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="590" parent="262" name="name">
+      <Position>2</Position>
+      <Comment>冠亚军统计名称</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="591" parent="262" name="today_coming">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="592" parent="262" name="uncoming">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="593" parent="262" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="594" parent="263" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="595" parent="263" name="member_id">
+      <Position>2</Position>
+      <Comment>会员编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="596" parent="263" name="play_name">
+      <Position>3</Position>
+      <Comment>玩法名称，如：第一球，第二球，总和等等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="597" parent="263" name="bet_item">
+      <Position>4</Position>
+      <Comment>下注项，如：单，双，龙，虎，号码等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="598" parent="263" name="coming_times">
+      <Position>5</Position>
+      <Comment>连续出现次数。 如果值为负数则表示是未出现次数。</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="599" parent="263" name="sms_state">
+      <Position>6</Position>
+      <Comment>是否需要短信提醒</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="600" parent="263" name="idx_pk10_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="601" parent="263" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="602" parent="263" name="idx_pk10_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <UnderlyingIndexName>idx_pk10_changlong_warn</UnderlyingIndexName>
+    </key>
+    <column id="603" parent="264" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="604" parent="264" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="605" parent="264" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="606" parent="264" name="number">
+      <Position>4</Position>
+      <Comment>冠亚和</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="607" parent="264" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="608" parent="264" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="609" parent="264" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="610" parent="264" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="611" parent="264" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="612" parent="264" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="613" parent="264" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="614" parent="264" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="615" parent="265" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="616" parent="265" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="617" parent="265" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="618" parent="265" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="619" parent="265" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="620" parent="265" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="621" parent="265" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="622" parent="265" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="623" parent="265" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="624" parent="265" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="625" parent="265" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="626" parent="265" name="idx_pk10_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="627" parent="265" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="628" parent="265" name="idx_pk10_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_pk10_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="629" parent="266" name="period">
+      <Position>1</Position>
+      <Comment>期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="630" parent="266" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="631" parent="266" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="632" parent="266" name="numbers">
+      <Position>4</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="633" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>period</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="634" parent="267" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="635" parent="267" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="636" parent="267" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="637" parent="267" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="638" parent="267" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="639" parent="267" name="idx_pl3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="640" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="641" parent="267" name="idx_pl3_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_pl3_period_number</UnderlyingIndexName>
+    </key>
+    <column id="642" parent="268" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="643" parent="268" name="lottery">
+      <Position>2</Position>
+      <Comment>彩种 1 = 重庆时时彩, 2 = PK10,  3 = 广东快乐十分</Comment>
+      <DataType>int(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="644" parent="268" name="group_name">
+      <Position>3</Position>
+      <Comment>组名。如: 第一名,第二名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="645" parent="268" name="item_name">
+      <Position>4</Position>
+      <Comment>项名称，如单双，大小</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="646" parent="268" name="ext_data">
+      <Position>5</Position>
+      <Comment>扩展数据，如存放总统计数据</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="647" parent="268" name="roadmap">
+      <Position>6</Position>
+      <Comment>路珠数据，格式为：项名1:数量, 项名2:数量, 项名1:数量&#xd;
+            例如：&#xd;
+            单:4,双:2,单:3</Comment>
+      <DataType>varchar(4000)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="648" parent="268" name="update_time">
+      <Position>7</Position>
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="649" parent="268" name="idx_lottery_roadmap_item">
+      <ColNames>lottery
+group_name
+item_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="650" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="651" parent="268" name="idx_lottery_roadmap_item">
+      <ColNames>lottery
+group_name
+item_name</ColNames>
+      <UnderlyingIndexName>idx_lottery_roadmap_item</UnderlyingIndexName>
+    </key>
+    <column id="652" parent="269" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="653" parent="269" name="lottery">
+      <Position>2</Position>
+      <Comment>彩种 1 = 重庆时时彩, 2 = PK10,  3 = 广东快乐十分</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="654" parent="269" name="stat_date">
+      <Position>3</Position>
+      <Comment>统计日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="655" parent="269" name="group_name">
+      <Position>4</Position>
+      <Comment>组名。如: 第一名,第二名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="656" parent="269" name="item_name">
+      <Position>5</Position>
+      <Comment>项名称，如单双，大小</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="657" parent="269" name="ext_data">
+      <Position>6</Position>
+      <Comment>扩展数据，如存放总统计数据</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="658" parent="269" name="roadmap">
+      <Position>7</Position>
+      <Comment>路珠数据，格式为：项名1:数量, 项名2:数量, 项名1:数量&#xd;
+            例如：&#xd;
+            单:4,双:2,单:3</Comment>
+      <DataType>varchar(4000)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="659" parent="269" name="update_time">
+      <Position>8</Position>
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="660" parent="269" name="idx_lottery_roadmap_day_date_item">
+      <ColNames>lottery
+group_name
+item_name
+stat_date</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="661" parent="269" name="idx_lottery_roadmap_day_lot_date">
+      <ColNames>lottery
+stat_date</ColNames>
+    </index>
+    <key id="662" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="663" parent="269" name="idx_lottery_roadmap_day_date_item">
+      <ColNames>lottery
+group_name
+item_name
+stat_date</ColNames>
+      <UnderlyingIndexName>idx_lottery_roadmap_day_date_item</UnderlyingIndexName>
+    </key>
+    <column id="664" parent="270" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="665" parent="270" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="666" parent="270" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="667" parent="270" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="668" parent="270" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="669" parent="270" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="670" parent="270" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="671" parent="270" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="672" parent="270" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="673" parent="270" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="674" parent="270" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="675" parent="270" name="idx_sdc_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="676" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="677" parent="270" name="idx_sdc_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_sdc_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="678" parent="271" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="679" parent="271" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="680" parent="271" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="681" parent="271" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="682" parent="271" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="683" parent="271" name="idx_sdc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="684" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="685" parent="271" name="idx_sdc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_sdc_period_number</UnderlyingIndexName>
+    </key>
+    <column id="686" parent="272" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="687" parent="272" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="688" parent="272" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="689" parent="272" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="690" parent="272" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="691" parent="272" name="idx_shssl_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="692" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="693" parent="272" name="idx_shssl_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_shssl_period_number</UnderlyingIndexName>
+    </key>
+    <column id="694" parent="273" name="lottery_id">
+      <Position>1</Position>
+      <Comment>彩种(1 = 重庆时时彩, 2 = pk10, 3 = 广东快乐十分，8=江西时时彩，5=幸运农场，6=幸运飞艇)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="695" parent="273" name="stat_date_type">
+      <Position>2</Position>
+      <Comment>统计范围(近一周=1，近一个月=2，近三个月=3)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="696" parent="273" name="stat_type">
+      <Position>3</Position>
+      <Comment>统计类型(1：大小，2：单双；3：龙虎)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="697" parent="273" name="ball_no">
+      <Position>4</Position>
+      <Comment>球索引(第一球0/第二球1...)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="698" parent="273" name="form_type">
+      <Position>5</Position>
+      <Comment>形态类型（0：默认长龙形态；1：ab形态；2：abb形态；3：aabb形态）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="699" parent="273" name="come_times">
+      <Position>6</Position>
+      <Comment>连续次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="700" parent="273" name="come_count">
+      <Position>7</Position>
+      <Comment>连续次数出现的次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="701" parent="273" name="stat_date">
+      <Position>8</Position>
+      <Comment>统计时间</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="702" parent="273" name="idx_special_form_stat_lottery_ball_no">
+      <ColNames>lottery_id
+stat_date_type
+ball_no</ColNames>
+    </index>
+    <key id="703" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>lottery_id
+stat_date_type
+stat_type
+ball_no
+come_times
+form_type</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="704" parent="274" name="id">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="705" parent="274" name="lottery_id">
+      <Position>2</Position>
+      <Comment>彩种(1=重庆时时彩，8=江西时时彩)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="706" parent="274" name="two_sided">
+      <Position>3</Position>
+      <Comment>本期双号(多个用，分割)</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="707" parent="274" name="issue_today">
+      <Position>4</Position>
+      <Comment>今日开出双号期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="708" parent="274" name="issue_next">
+      <Position>5</Position>
+      <Comment>下期重复开出期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="709" parent="274" name="omit_current">
+      <Position>6</Position>
+      <Comment>当期重复开出遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="710" parent="274" name="omit_today_max">
+      <Position>7</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="711" parent="274" name="stat_date">
+      <Position>8</Position>
+      <Comment>统计日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="712" parent="274" name="idx_ssc_twoball_lot_date">
+      <ColNames>lottery_id
+stat_date</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="713" parent="274" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="714" parent="274" name="idx_ssc_twoball_lot_date">
+      <ColNames>lottery_id
+stat_date</ColNames>
+      <UnderlyingIndexName>idx_ssc_twoball_lot_date</UnderlyingIndexName>
+    </key>
+    <column id="715" parent="275" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="716" parent="275" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="717" parent="275" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="718" parent="275" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="719" parent="275" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="720" parent="275" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="721" parent="275" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="722" parent="275" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="723" parent="275" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="724" parent="275" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="725" parent="275" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="726" parent="275" name="idx_syydj_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="727" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="728" parent="275" name="idx_syydj_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_syydj_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="729" parent="276" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="730" parent="276" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="731" parent="276" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="732" parent="276" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="733" parent="276" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="734" parent="276" name="idx_syydj_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="735" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="736" parent="276" name="idx_syydj_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_syydj_period_number</UnderlyingIndexName>
+    </key>
+    <column id="737" parent="277" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="738" parent="277" name="member_id">
+      <Position>2</Position>
+      <Comment>会员编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="739" parent="277" name="play_name">
+      <Position>3</Position>
+      <Comment>玩法名称，如：第一球，第二球，总和等等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="740" parent="277" name="bet_item">
+      <Position>4</Position>
+      <Comment>下注项，如：单，双，龙，虎，号码等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="741" parent="277" name="coming_times">
+      <Position>5</Position>
+      <Comment>连续出现次数。 如果值为负数则表示是未出现次数。</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="742" parent="277" name="sms_state">
+      <Position>6</Position>
+      <Comment>是否需要短信提醒</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="743" parent="277" name="idx_tjkl10_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="744" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="745" parent="277" name="idx_tjkl10_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <UnderlyingIndexName>idx_tjkl10_changlong_warn</UnderlyingIndexName>
+    </key>
+    <column id="746" parent="278" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="747" parent="278" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="748" parent="278" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="749" parent="278" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="750" parent="278" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="751" parent="278" name="idx_tjkl10_period_number2">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="752" parent="278" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="753" parent="278" name="idx_tjkl10_period_number2">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_tjkl10_period_number2</UnderlyingIndexName>
+    </key>
+    <column id="754" parent="279" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="755" parent="279" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="756" parent="279" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="757" parent="279" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="758" parent="279" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="759" parent="279" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="760" parent="279" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="761" parent="279" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="762" parent="279" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="763" parent="279" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="764" parent="279" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="765" parent="279" name="idx_tjssc_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="766" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="767" parent="279" name="idx_tjssc_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_tjssc_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="768" parent="280" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="769" parent="280" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="770" parent="280" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="771" parent="280" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="772" parent="280" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="773" parent="280" name="idx_tjssc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="774" parent="280" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="775" parent="280" name="idx_tjssc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_tjssc_period_number</UnderlyingIndexName>
+    </key>
+    <column id="776" parent="281" name="lottery_id">
+      <Position>1</Position>
+      <Comment>彩种(1 = 重庆时时彩, 2 = pk10, 3 = 广东快乐十分，8=江西时时彩，5=幸运农场，6=幸运飞艇)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="777" parent="281" name="stat_date_type">
+      <Position>2</Position>
+      <Comment>统计范围(近一个月1，三个月=2，半年=3，一年=4)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="778" parent="281" name="stat_type">
+      <Position>3</Position>
+      <Comment>统计类型(1：大，2：小，3：单，4：双，5：龙，6：虎)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="779" parent="281" name="ball_no">
+      <Position>4</Position>
+      <Comment>球索引(第一球0/第二球1...)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="780" parent="281" name="count_omit">
+      <Position>5</Position>
+      <Comment>遗漏值</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="781" parent="281" name="count_coming">
+      <Position>6</Position>
+      <Comment>出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="782" parent="281" name="stat_date">
+      <Position>7</Position>
+      <Comment>统计时间</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="783" parent="281" name="idx_two_sided_omit_lot_ball_no">
+      <ColNames>lottery_id
+stat_date_type
+ball_no</ColNames>
+    </index>
+    <key id="784" parent="281" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>lottery_id
+stat_date_type
+stat_type
+ball_no
+count_omit</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="785" parent="282" name="lottery_id">
+      <Position>1</Position>
+      <Comment>彩种(1 = 重庆时时彩, 2 = pk10, 3 = 广东快乐十分，8=江西时时彩，5=幸运农场，6=幸运飞艇)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="786" parent="282" name="stat_date_type">
+      <Position>2</Position>
+      <Comment>统计范围(近一个月1，三个月=2，半年=3，一年=4)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="787" parent="282" name="stat_type">
+      <Position>3</Position>
+      <Comment>统计类型(1：大，2：小，3：单，4：双，5：龙，6：虎)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="788" parent="282" name="ball_no">
+      <Position>4</Position>
+      <Comment>球索引(第一球0/第二球1...)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="789" parent="282" name="count_omit">
+      <Position>5</Position>
+      <Comment>遗漏值</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="790" parent="282" name="count_coming">
+      <Position>6</Position>
+      <Comment>出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="791" parent="282" name="stat_date">
+      <Position>7</Position>
+      <Comment>统计时间</Comment>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="792" parent="282" name="idx_two_sided_omit_lot_ball_no">
+      <ColNames>lottery_id
+stat_date_type
+ball_no</ColNames>
+    </index>
+    <key id="793" parent="282" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>lottery_id
+stat_date_type
+stat_type
+ball_no
+count_omit</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="794" parent="283" name="id">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="795" parent="283" name="lottery_id">
+      <Position>2</Position>
+      <Comment>彩种(1 = 重庆时时彩, 2 = pk10, 3 = 广东快乐十分，8=江西时时彩，5=幸运农场，6=幸运飞艇)</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="796" parent="283" name="issue_start">
+      <Position>3</Position>
+      <Comment>开始期号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="797" parent="283" name="issue_end">
+      <Position>4</Position>
+      <Comment>结束期号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="798" parent="283" name="stat_date">
+      <Position>5</Position>
+      <Comment>统计日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="799" parent="283" name="ball_no">
+      <Position>6</Position>
+      <Comment>球索引</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="800" parent="283" name="count_odd">
+      <Position>7</Position>
+      <Comment>单出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="801" parent="283" name="count_even">
+      <Position>8</Position>
+      <Comment>双出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="802" parent="283" name="count_big">
+      <Position>9</Position>
+      <Comment>大出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="803" parent="283" name="count_small">
+      <Position>10</Position>
+      <Comment>小出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="804" parent="283" name="idx_two_sided_stat_lottery_ball">
+      <ColNames>lottery_id
+ball_no</ColNames>
+    </index>
+    <key id="805" parent="283" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="806" parent="284" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="807" parent="284" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="808" parent="284" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="809" parent="284" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="810" parent="284" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="811" parent="284" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="812" parent="284" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="813" parent="284" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="814" parent="284" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="815" parent="284" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="816" parent="284" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="817" parent="284" name="idx_xjssc_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="818" parent="284" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="819" parent="284" name="idx_xjssc_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_xjssc_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="820" parent="285" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="821" parent="285" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="822" parent="285" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="823" parent="285" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="824" parent="285" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="825" parent="285" name="idx_xjssc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="826" parent="285" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="827" parent="285" name="idx_xjssc_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_xjssc_period_number</UnderlyingIndexName>
+    </key>
+    <column id="828" parent="286" name="period">
+      <Position>1</Position>
+      <Comment>期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="829" parent="286" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="830" parent="286" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="831" parent="286" name="numbers">
+      <Position>4</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="832" parent="286" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>period</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="833" parent="287" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="834" parent="287" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="835" parent="287" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="836" parent="287" name="number">
+      <Position>4</Position>
+      <Comment>冠亚和</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="837" parent="287" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="838" parent="287" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="839" parent="287" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="840" parent="287" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="841" parent="287" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="842" parent="287" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="843" parent="287" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="844" parent="287" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="845" parent="288" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="846" parent="288" name="type">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="847" parent="288" name="ball">
+      <Position>3</Position>
+      <Comment>球索引，第几球</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="848" parent="288" name="number">
+      <Position>4</Position>
+      <Comment>遗漏号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="849" parent="288" name="current_win_or_loss">
+      <Position>5</Position>
+      <Comment>当前遗漏输赢</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="850" parent="288" name="today_coming">
+      <Position>6</Position>
+      <Comment>今日总出现次数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="851" parent="288" name="current_omit">
+      <Position>7</Position>
+      <Comment>当前遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="852" parent="288" name="today_omit">
+      <Position>8</Position>
+      <Comment>今日最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="853" parent="288" name="week_omit">
+      <Position>9</Position>
+      <Comment>一周最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="854" parent="288" name="month_omit">
+      <Position>10</Position>
+      <Comment>一个月最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="855" parent="288" name="history_omit">
+      <Position>11</Position>
+      <Comment>历史最大遗漏</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="856" parent="288" name="idx_xyft_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="857" parent="288" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="858" parent="288" name="idx_xyft_ball_number">
+      <ColNames>ball
+number</ColNames>
+      <UnderlyingIndexName>idx_xyft_ball_number</UnderlyingIndexName>
+    </key>
+    <column id="859" parent="289" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="860" parent="289" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="861" parent="289" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="862" parent="289" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>int(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="863" parent="289" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="864" parent="289" name="idx_xyft_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="865" parent="289" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="866" parent="289" name="idx_xyft_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_xyft_period_number</UnderlyingIndexName>
+    </key>
+    <column id="867" parent="290" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="868" parent="290" name="drawing_date">
+      <Position>2</Position>
+      <Comment>抽奖日期</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="869" parent="290" name="drawing_time">
+      <Position>3</Position>
+      <Comment>抽奖时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="870" parent="290" name="period">
+      <Position>4</Position>
+      <Comment>期数</Comment>
+      <DataType>int(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="871" parent="290" name="numbers">
+      <Position>5</Position>
+      <Comment>开奖号码，用逗号隔开各个数字</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="872" parent="290" name="idx_xyft_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="873" parent="290" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="874" parent="290" name="idx_xyft_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_xyft_period_number</UnderlyingIndexName>
+    </key>
+    <column id="875" parent="291" name="id">
+      <Position>1</Position>
+      <Comment>id编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="876" parent="291" name="member_id">
+      <Position>2</Position>
+      <Comment>会员编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="877" parent="291" name="play_name">
+      <Position>3</Position>
+      <Comment>玩法名称，如：第一球，第二球，总和等等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="878" parent="291" name="bet_item">
+      <Position>4</Position>
+      <Comment>下注项，如：单，双，龙，虎，号码等</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="879" parent="291" name="coming_times">
+      <Position>5</Position>
+      <Comment>连续出现次数。 如果值为负数则表示是未出现次数。</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="880" parent="291" name="sms_state">
+      <Position>6</Position>
+      <Comment>是否需要短信提醒</Comment>
+      <DataType>bit(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="881" parent="291" name="idx_xync_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="882" parent="291" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="883" parent="291" name="idx_xync_changlong_warn">
+      <ColNames>member_id
+play_name
+bet_item</ColNames>
+      <UnderlyingIndexName>idx_xync_changlong_warn</UnderlyingIndexName>
+    </key>
+    <column id="884" parent="292" name="id">
+      <Position>1</Position>
+      <Comment>id缂栧彿</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="885" parent="292" name="drawing_date">
+      <Position>2</Position>
+      <Comment>鎶藉?鏃ユ湡</Comment>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="886" parent="292" name="drawing_time">
+      <Position>3</Position>
+      <Comment>鎶藉?鏃堕棿</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="887" parent="292" name="period">
+      <Position>4</Position>
+      <Comment>鏈熸暟</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="888" parent="292" name="numbers">
+      <Position>5</Position>
+      <Comment>寮??鍙风爜锛岀敤閫楀彿闅斿紑鍚勪釜鏁板瓧</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="889" parent="292" name="idx_xync_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="890" parent="292" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="891" parent="292" name="idx_xync_period_number">
+      <ColNames>drawing_date
+period</ColNames>
+      <UnderlyingIndexName>idx_xync_period_number</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
