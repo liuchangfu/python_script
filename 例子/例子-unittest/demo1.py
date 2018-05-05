@@ -1,6 +1,7 @@
 # 导入unittest模块
 import unittest
 
+
 # 定义测试类，父类为unittest.TestCase。
 # 可继承unittest.TestCase的方法，如setUp和tearDown方法，不过此方法可以在子类重写，覆盖父类方法。
 # 可继承unittest.TestCase的各种断言方法。
@@ -39,7 +40,36 @@ class Test(unittest.TestCase):
 
 # 如果直接运行该文件(__name__值为__main__),则执行以下语句，常用于测试脚本是否能够正常运行
 if __name__ == '__main__':
-    # 8.1执行测试用例方案一如下：
+    # 执行测试用例方案一如下：
     # unittest.main()方法会搜索该模块下所有以test开头的测试用例方法，并自动执行它们。
     # 执行顺序是命名顺序：先执行test_case1，再执行test_case2
     unittest.main()
+
+
+    # # 执行测试用例方案二如下：
+    # # 先构造测试集
+    # # 实例化测试套件
+    # suite=unittest.TestSuite()
+    # # 将测试用例加载到测试套件中。
+    # #执行顺序是安装加载顺序：先执行test_case2，再执行test_case1
+    # suite.addTest(Test('test_case2'))
+    # suite.addTest(Test('test_case1'))
+    # # 执行测试用例
+    # # 实例化TextTestRunner类
+    # runner=unittest.TextTestRunner()
+    # #使用run()方法运行测试套件（即运行测试套件中的所有用例）
+    # runner.run(suite)
+    #
+
+
+    # # 执行测试用例方案三如下：
+    # # 构造测试集（简化了方案二中先要创建测试套件然后再依次加载测试用例）
+    # #执行顺序同方案一：执行顺序是命名顺序：先执行test_case1，再执行test_case2
+    # test_dir = './'
+    # discover = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
+    # # 执行测试用例
+    # # 实例化TextTestRunner类
+    # runner=unittest.TextTestRunner()
+    # # 使用run()方法运行测试套件（即运行测试套件中的所有用例）
+    # runner.run(discover)
+    #
