@@ -10,7 +10,6 @@ from framework.logger import Logger
 config = readConfigFile.ReadConfig()
 mylog = Logger(logger="SearchResultPage").getlog()
 
-
 class SearchResultPage(unittest.TestCase):
 
     @classmethod
