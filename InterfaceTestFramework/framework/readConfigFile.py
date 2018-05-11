@@ -3,8 +3,8 @@ import os
 import codecs
 import configparser
 
-configPath = os.path.abspath(os.curdir) + '/testConfig/config.ini'
-
+configPath = os.path.abspath(os.curdir) + '\\testConfig\\config.ini'
+print(configPath)
 
 class ReadConfig:
 
@@ -14,7 +14,7 @@ class ReadConfig:
         self.config = configparser.ConfigParser()
         self.config.read(configPath)
 
-    # get some http info from file :config.ini
+    # get some http info from file:config.ini
     def get_http(self, name):
         value = self.config.get("HTTP", name)
         return value

@@ -1,13 +1,10 @@
-class Dog(object):
+# def is_odd(n):
+#     return n % 2 == 1
+#
+# L = list(filter(is_odd, range(1, 20)))
+# print(L)
 
-    def __init__(self, name, dog_type):
-        self.name = name
-        self.type = dog_type
-
-    def sayhi(self):
-        print("hello,I am a dog, my name is ", self.name)
-
-
-d = Dog('LiChuang', "京巴")
-d.sayhi()
-
+n = 20
+list=[]
+L= lambda n:n%2==1
+print(list.append(L))

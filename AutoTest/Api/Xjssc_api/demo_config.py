@@ -26,16 +26,16 @@ secs = conf.sections()
 print('secs:', secs)
 
 #  返回该website的所有键值对
-secs1 = conf.items('website')
+secs1 = conf.items('http')
 print('secs1:', secs1)
 
 # 获取配置文件相应的节点的配置参数
-ops = conf.options('website')
+ops = conf.options('http')
 print('ops:', ops)
 
 # 获取配置文件下相应节点的值
-url = conf.get('website', 'url')
-print(url)
+url = conf.get('http', 'baseurl')
+print("url:",url)
 
 versoin = conf.get('version', 'version')
 print(versoin)
