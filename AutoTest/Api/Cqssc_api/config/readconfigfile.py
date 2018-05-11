@@ -1,20 +1,10 @@
 import os
 import configparser
+import sys
 import codecs
 
-# 当前配置文件存放的真实路径
-# ConfigPath = os.path.abspath(os.curdir) + '\\config.ini'
-# 当前脚本存放的真实路径
-# RealPath = os.path.join(os.path.dirname(os.path.realpath(__file__)))
-# ConfigPath = os.path.join(RealPath,"config")
-
-# config = configparser.ConfigParser()
-# config.read(ConfigPath)
-#
-# url = config.get("HTTP","baseurl")
-# print("url:",url)
-
-# print(ConfigPath)
+# 获取当前目录下中的配置文件
+ConfigPath = os.path.join(os.getcwd(), os.listdir()[0])
 
 # class ReadConfig():
 #     def __init__(self):
@@ -27,11 +17,11 @@ import codecs
 #         print(self.url)
 #         return self.url
 
-def get_url(config_file,name):
+def get_url(name):
     config = configparser.ConfigParser()
-    config.read(config_file)
-    url = config.get("Url_Config",name)
+    config.read("E:\python_script\AutoTest\Api\Cqssc_api\config\config.ini")
+    # config.read(ConfigPath)
+    # print(ConfigPath)
+    url = config.get("Url_Config", name)
     return url
 
-# res= get_url("baseurl")
-# print(res)

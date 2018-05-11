@@ -1,10 +1,14 @@
 import unittest
 import requests
+import sys
+sys.path.append("..")
+from config import readconfigfile as con
 
 class TestTwoFaceDayStat(unittest.TestCase):
 
     def setUp(self):
-        self.base_url = "https://mo.1394x.com/ssc/NumberStat?version=3000" #重庆时时彩中APP号码统计接口地址
+        self.host = con.get_url("baseurl")  # 接口地址
+        self.base_url = self.host + "/ssc/NumberStat?version=3000"  # 重庆时时彩中APP号码统计接口地址
 
     def test_status_code(self):
         """验证接口返回状态码是否是200"""

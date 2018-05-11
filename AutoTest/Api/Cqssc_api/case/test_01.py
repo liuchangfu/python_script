@@ -1,17 +1,13 @@
 import unittest
 import requests
 import sys
-import os
 sys.path.append("..")
 from config import readconfigfile as con
-
-# 当前配置文件存放的真实路径
-ConfigPath = os.path.abspath(os.curdir) + '\\config.ini'
 
 class TestGetAwardData(unittest.TestCase):
 
     def setUp(self):
-        self.host = con.get_url(ConfigPath,"baseurl")  # 接口地址
+        self.host = con.get_url("baseurl")  # 接口地址
         self.base_url = self.host + "/ssc/GetAwardData?version=3000"  # 重庆时时彩中APP两面历史接口地址
         print(self.base_url)
 
