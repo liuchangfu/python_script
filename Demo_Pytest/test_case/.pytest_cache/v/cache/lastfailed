@@ -1,0 +1,9 @@
+{
+  "test_case2/test_demo1.py::test_func2": true,
+  "test_case2/test_demo3.py::test_func2": true,
+  "test_demo2.py::TestClass::()::test_two": true,
+  "test_demo4.py::TestClass::()::test_two": true,
+  "test_demo5.py::test_add2": true,
+  "test_demo5.py::test_add3": true,
+  "test_demo7.py::TestUm::()::test_numbers_5_6": true
+}

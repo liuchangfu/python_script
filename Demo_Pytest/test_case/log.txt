@@ -1,0 +1,11 @@
+F test_demo7.py::TestUm::()::test_numbers_5_6
+ self = <test_demo7.TestUm object at 0x02E1D170>
+ 
+     def test_numbers_5_6(self):
+         print ('test_numbers_5_6')
+ >       assert um(5, 6) == 40
+ E       assert 30 == 40
+ E        +  where 30 = um(5, 6)
+ 
+ test_demo7.py:29: AssertionError
+. test_demo7.py::TestUm::()::test_strings_b_2

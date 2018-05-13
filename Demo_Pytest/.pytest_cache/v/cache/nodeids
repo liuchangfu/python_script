@@ -1,0 +1,20 @@
+[
+  "test_case/test_demo2.py::TestClass::()::test_one",
+  "test_case/test_demo2.py::TestClass::()::test_two",
+  "test_case/test_demo4.py::TestClass::()::test_one",
+  "test_case/test_demo4.py::TestClass::()::test_two",
+  "test_case/test_demo5.py::test_add1",
+  "test_case/test_demo5.py::test_add2",
+  "test_case/test_demo5.py::test_add3",
+  "test_case/test_demo5.py::test_add4",
+  "test_case/test_demo6.py::test_numbers_3_4",
+  "test_case/test_demo6.py::test_strings_a_3",
+  "test_case/test_demo7.py::TestUm::()::test_numbers_5_6",
+  "test_case/test_demo7.py::TestUm::()::test_strings_b_2",
+  "test_case/test_case2/test_demo1.py::test_func1",
+  "test_case/test_case2/test_demo1.py::test_func2",
+  "test_case/test_case2/test_demo1.py::test_func3",
+  "test_case/test_case2/test_demo3.py::test_func1",
+  "test_case/test_case2/test_demo3.py::test_func2",
+  "test_case/test_case2/test_demo3.py::test_func3"
+]
