@@ -6,6 +6,9 @@ mc.set("name","python")
 # 读取
 ret = mc.get("name")
 print(ret)
-
-mc.add('k1','v1')
-mc.add('k2','v2')
+# 增加
+ret1 = mc.add('name1','python')
+print(ret1)
+# 增加，如果已经存在的key，重复执行add操作会出现异常
+ret2 = mc.add('name2','java')
+print(ret2)
