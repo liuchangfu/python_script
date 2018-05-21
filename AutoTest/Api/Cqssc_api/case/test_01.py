@@ -2,13 +2,16 @@ import unittest
 import requests
 import sys
 sys.path.append("..")
-from config import readconfigfile as con
+from config import readconfigfile as config
+
 
 class TestGetAwardData(unittest.TestCase):
 
     def setUp(self):
-        self.host = con.get_url("baseurl")  # 接口地址
-        self.base_url = self.host + "/ssc/GetAwardData?version=3000"  # 重庆时时彩中APP两面历史接口地址
+        # 接口地址
+        self.host = config.get_url("baseurl")
+        # 重庆时时彩中APP两面历史接口地址
+        self.base_url = self.host + "/ssc/GetAwardData?version=3000"
         print(self.base_url)
 
     def test_status_code(self):

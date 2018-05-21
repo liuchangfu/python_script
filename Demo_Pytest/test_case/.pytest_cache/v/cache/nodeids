@@ -1,4 +1,6 @@
 [
-  "test_demo7.py::TestUm::()::test_numbers_5_6",
-  "test_demo7.py::TestUm::()::test_strings_b_2"
+  "test_demo9.py::TestV2exApiWithParams::()::test_node[python]",
+  "test_demo9.py::TestV2exApiWithParams::()::test_node[java]",
+  "test_demo9.py::TestV2exApiWithParams::()::test_node[go]",
+  "test_demo9.py::TestV2exApiWithParams::()::test_node[nodejs]"
 ]

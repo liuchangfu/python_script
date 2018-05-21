@@ -23,6 +23,7 @@ class Logger(object):
         # 如果case组织结构式 /testsuit/featuremodel/xxx.py ， 那么得到的相对路径的父路径就是项目根目录
         log_name = log_path + rq + '.log'
         fh = logging.FileHandler(log_name)
+
         fh.setLevel(logging.INFO)
 
         # 再创建一个handler，用于输出到控制台

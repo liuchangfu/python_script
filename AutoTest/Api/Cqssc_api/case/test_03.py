@@ -3,6 +3,7 @@ import requests
 import sys
 sys.path.append("..")
 from config import readconfigfile as con
+
 class TestTwoFaceDayStat(unittest.TestCase):
 
     def setUp(self):

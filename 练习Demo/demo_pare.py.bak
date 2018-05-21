@@ -2,7 +2,6 @@ import unittest
 import paramunittest
 import time
 
-
 @paramunittest.parametrized(
     {"user": "admin", "psw": "123", "result": "true"},
     {"user": "admin1", "psw": "1234", "result": "true"},
@@ -36,4 +35,3 @@ class DemoTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
-

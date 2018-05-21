@@ -1,0 +1,7 @@
+{
+  "test_demo8.py::TestUserPasswordWithParam::()::test_user_password[user2]": true,
+  "test_demo8.py::TestUserPasswrod::()::test_user_password": true,
+  "test_demo8.py::TestUserPasswrod::()::test_user_password[user0]": true,
+  "test_demo8.py::TestUserPasswrod::()::test_user_password[user1]": true,
+  "test_demo8.py::TestUserPasswrod::()::test_user_password[user2]": true
+}

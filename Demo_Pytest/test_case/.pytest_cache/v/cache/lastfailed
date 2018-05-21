@@ -5,5 +5,9 @@
   "test_demo4.py::TestClass::()::test_two": true,
   "test_demo5.py::test_add2": true,
   "test_demo5.py::test_add3": true,
-  "test_demo7.py::TestUm::()::test_numbers_5_6": true
+  "test_demo7.py::TestUm::()::test_numbers_5_6": true,
+  "test_demo9.py::TestV2exApiWithParams::()::test_node[go]": true,
+  "test_demo9.py::TestV2exApiWithParams::()::test_node[java]": true,
+  "test_demo9.py::TestV2exApiWithParams::()::test_node[nodejs]": true,
+  "test_demo9.py::TestV2exApiWithParams::()::test_node[python]": true
 }

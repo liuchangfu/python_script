@@ -19,7 +19,7 @@ import configparser
 conf = configparser.ConfigParser()
 
 # 打开配置文件
-conf.read('config.ini')
+conf.read('.\config.ini')
 
 # 获取配置文件所有节点
 secs = conf.sections()

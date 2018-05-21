@@ -1,0 +1,5 @@
+[
+  "test_demo8.py::TestUserPasswordWithParam::()::test_user_password[user0]",
+  "test_demo8.py::TestUserPasswordWithParam::()::test_user_password[user1]",
+  "test_demo8.py::TestUserPasswordWithParam::()::test_user_password[user2]"
+]
