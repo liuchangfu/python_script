@@ -24,3 +24,4 @@ for i in range(5):
     a = b
     print("空列表：", b)
 print("原始列表修改后:", a)
+
